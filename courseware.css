@@ -1,0 +1,216 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 120%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0;
+    background-color: orange;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 7px;
+}
+
+.sidenav a {
+    padding: 2px 8px 2px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    color:black;
+    display: block;
+    transition: 0.3s;
+    
+}
+i{
+    padding: 6px;
+}
+.sidenav a:hover {
+    /* color: #f1f1f1; */
+    color: red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 26px;
+    margin-left: 30px;
+}
+ .key{
+    position: fixed;
+    top: 0;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+} 
+/* .top{
+    display: flex; 
+} */
+/* .top:hover{
+    cursor: pointer;
+} */
+#main {
+    transition: margin-left .5s;
+    padding: 10px;
+    background-color: lightgrey;
+}
+.flex-container {
+    display: flex;
+    /* background-color:whitesmoke; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+  }
+  
+  .flex-container > div {
+    background-color: white;
+    margin: 5px; 
+    padding: 2px;
+    font-size: 25px;
+    width: 400px;
+    overflow-x: hidden;
+    border-radius: 5px;
+  }
+  .flex-container > div:hover {
+    background-color: hsl(228, 12%, 44%);
+    cursor: pointer;
+  }
+
+.my{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    width: 100%;
+    height: 20%;
+    padding: 2px; 
+    background-color: white;
+    text-align: center;
+}
+.ball{
+    /* float: left; */
+    padding-top: 8px;
+    padding-left: 10%;
+    padding-bottom: 10px;
+}
+.mip{
+    float: right;
+    /* font-size: 8px; */
+    padding-top: 20px;
+    padding-right: 20px;
+    /* padding-top: 20px; */
+}
+th{
+    padding: 12px;
+    text-align: center;
+    height: 50px;
+}
+tr:hover {background-color: #f5f5f5;}
+td{
+    padding-bottom: 5px;
+    height: 20px;
+    text-align: center;
+}
+table{
+    background-color: lightgrey;
+    width: 100%;
+}
+tr:nth-child(even) {background-color: whitesmoke;}
+/* table,td,th{
+    border: 1px solid green;
+    background-color: whitesmoke;
+}
+th,td{
+    border-collapse: collapse;
+} */
+/* tr,td.memo{
+    border-collapse: collapse;
+} */
+   .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 90%;
+    height: 90%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}  
+
+/* On mouse-over  */
+  .dropdown-btn:hover {
+    color: red;
+}
+/* Add an active class to the active dropdown button */
+.active {
+    /* background-color: red; */
+    color: black;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626 ;
+    opacity: 0.8;
+    /* padding-left: 20px; */
+    
+}
+
+/* .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+} */
+/* .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  } */
+  
+  /* .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+   */
+ .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right:20px ;
+    padding-right: 5px;
+    background: linear-gradient(to bottom right, red, orange);  
+  }
+  
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } 
+  
+  /* .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  } */
+  
+  /* .dropdown a:hover {background-color: #ddd;}
+   */
+  /* .show {display: block;}
+   */
